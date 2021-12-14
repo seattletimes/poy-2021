@@ -1,0 +1,28 @@
+<section class="thin-div">
+  <div class="center">Don’t Miss</div>
+</section>
+
+<section class="dont-miss">
+  <% data.forEach(function(story) { %>
+    <div class="story">
+      <div class="padded">
+        <a href="<%= story.link %>">
+          <img src="./assets/<%= story.image %>"></img>
+        </a>
+        <div class="small"><%= story.category %></div>
+        <div>
+          <a href="<%= story.link %>">
+            <%= story.head %>
+          </a>
+        </div>
+      </div>
+    </div>
+  <% }); %>
+</section>
+
+<!-- <%= t.include("./partials/_dontMiss.html", { data: [
+  { link: "https://projects.seattletimes.com/2020/videos-of-the-year/", image: "teaser1.jpg", head: "2020: The Year in Video" },
+  { link: "https://projects.seattletimes.com/2019/videos-of-the-year/", image: "teaser3.jpg", head: "2019 Videos of the Year" },
+  { link: "https://www.seattletimes.com/pacific-nw-magazine/pictures-of-the-year/", image: "teaser2.jpg", head: "2019 Pictures of the Year" },
+  { link: "https://projects.seattletimes.com/2018/pictures-of-the-year/", image: "teaser4.jpg", head: "2018 Pictures of the Year" }
+]}) %> -->

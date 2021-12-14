@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <% if (!json.project.embedded) { %>
+      <%= t.include("partials/_dataLayer.html") %>
+      <script src="https://seattle-times.zeustechnology.com/main.js" async></script>
+      <script src="https://www.seattletimes.com/wp-content/plugins/st-advertising/dist/st-projects-bundle.js" async></script>
+    <% } %>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtm.html") %>
+    <% } %>
+    <script src="https://kit.fontawesome.com/9d53be7224.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtmNoScript.html") %>
+    <% } %>
+    <responsive-child>
+      <!-- content goes here -->
+      <div class="hiddenMobile">
+        <%= t.include("partials/_nav.html") %>
+      </div>
+
+      <div class="ad">
+        <zeus-ad id='zeus_top' width="100%;"></zeus-ad>
+      </div>
+
+      <div class="inner">
+        <nav class="top-bar">
+          <a class="logo" href="http://seattletimes.com">
+            <img src="./assets/logo-transparent.png">
+          </a>
+        </nav>
+
+        <!-- <div class="hero"> -->
+        <div class="head">
+          <!-- <h1>Pictures of the Year 2020: Our 2021 Pictures of the Year issue chronicles historic challenges, much-needed hope — and more than one notable needle</h1> -->
+          <h1>Pictures of the Year 2021: Chronicling historic challenges, much-needed hope — and more than one notable needle</h1>
+
+          <img srcset="./assets/POY2021/small/pic1.jpg 500w,
+                  ./assets/POY2021/medium/pic1.jpg 900w,
+                  ./assets/POY2021/large/pic1.jpg 1200w"
+          sizes="(min-width: 1000px) 1200px,
+                 (max-width: 500px) 500px, 900px"
+          src="./assets/POY2021/small/pic1.jpg" alt="Barbara Hoffman, a mask-wearing middle-aged woman with firey red hair and red fingernails, a community health program manager and registered nurse, taps bubbles out of a syringe filled
+          with COVID-19 vaccine as teachers and others from the North Kitsap School District line up in their cars in the parking garage at the
+          Suquamish Clearwater Casino Resort in Suquamish, waiting to be vaccinated.">
+
+
+          <div class="caption inline">
+            MARCH 17 | Barbara Hoffman, a community health program manager and registered nurse, taps bubbles out of a syringe filled
+            with COVID-19 vaccine as teachers and others from the North Kitsap School District line up in their cars in the parking garage at the
+            Suquamish Clearwater Casino Resort in Suquamish, waiting to be vaccinated. The clinic, run by the Suquamish Tribe, was set up to help
+            speed teacher-vaccination efforts. When the vaccine was first available, and for a long time afterward, many people wanting to get vaccinated
+            had trouble getting their dose.
+            <a href="https://www.seattletimes.com/photo-video/photography/photographer-portfolio-ellen-m-banner/" target="_blank" rel="nofollow noreferrer noopener">(Ellen M. Banner / The Seattle Times)</a>
+          </div>
+        </div>
+
+        <p class="byline">Introduction by <b>Fred Nelson</b>, Seattle Times photo editor<br> Photographs by Seattle Times staff photographers<br>Published: December 26, 2021</p>
+
+        <div class="story">
+          <div class="story-inner">
+            <p>YEAR TWO OF THE PANDEMIC.</p>
+            <p>Let’s call it The Year of the Needle.</p>
+            <div class="story-flex">
+              <div class="left">
+                <p>And all the hope, and contention, that came with it.</p>
+                <p>Besides injections, this year the pandemic brought overrun ICUs, long-awaited reunions and miraculous recoveries.</p>
+                <p>Seattle Times photographers also covered protests and politics, homelessness, a record heat wave, floods, snowstorms and one of the more unusual sports years in memory. Leavening all of that, fortunately, were exceptional moments of everyday lives. (Oh, and there’s the circumstance of a certain cat that might be the picture of how many of us feel.)</p>
+
+                <div>
+                  <img loading=lazy src="./assets/backstory.jpg">
+                </div>
+                <div class="caption inline">THE EYES HAVE IT: Seattle Times photographers Bettina Hansen, foreground; Erika Schultz, left; and Alan Berner, and freelancer Lindsey Wasson, convene for a quick group selfie while covering protests on election night. (Bettina Hansen / The Seattle Times)
+                </div>
+              </div>
+
+              <div class="right poyEvent">
+                <p class="join"><strong>PICTURES OF THE YEAR VIRTUAL SHOW</strong></p>
+                <!-- <p class="join"><strong>Same great photos, different show this year</strong></p> -->
+
+                <p>Our Pictures of the Year presentation, featuring Seattle Times photographers’ and videographers’ most memorable work, and the stories behind it, will be held online in partnership with Seattle Public Library. There is no charge, but registration will be required.</p>
+
+                <div class="center">
+                  <div class="logo"><img loading=lazy src="./assets/SPLF_white.svg"></div>
+                  <div class="text">
+                    Virtual event at 7 p.m. Wednesday, Jan. 26.<br>
+                    <a href="https://st.news/POY2021">st.news/POY2021</a>
+                  </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="story-flex">
+              <div class="left">
+                <p>The safety of our photographers, and the people they photograph, is our first priority. Like most of us, the photographers and videographers of The Seattle Times have found ways to work around the hazards of the virus. They’re masked. They’re vaxxed. They’ve had countless COVID-19 tests up their nostrils. So far, so good. Not one of our visual journalists has gotten sick. Once again, “Knock on wood.”</p>
+                <p>And, once again, they’ve done really good work.</p>
+                <p>This annual feature of Pacific NW magazine, and our readers’ response to it, reminds those of us on the visual team of the extraordinary responsibility and good fortune we have to be the eyes of this news organization. It motivates us. It unifies us. It humbles us.</p>
+                <p>Thank you.</p>
+                <p>And, please, be careful out there!</p>
+              </div>
+
+              <div class="right fred">
+                <div class="small"><img loading=lazy src="./assets/fred.jpg"></div>
+                <div class="caption">Seattle Times photo editor Fred Nelson again selected the photos for our Pictures of the Year issue. (Courtesy Fred Nelson)</div>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+          <hr>
+
+
+          <!-- Start Picture Feed -->
+
+
+          <div class="containers">
+            <% json.gallery.forEach(function(row, index) {
+              if ((index > 0) && (index <= 15)) { %>
+              <%= t.include("./_photo.html", row) %>
+            <% } }) %>
+          </div>
+        </div>
+
+
+
+        <div class="ad" style="border-bottom:1px solid gray;">
+          <zeus-ad id='zeus_middle' width="100%;"></zeus-ad>
+        </div>
+
+        <div class="story">
+          <div class="containers">
+            <% json.gallery.forEach(function(row, index) {
+              if (index > 15) { %>
+              <%= t.include("./_photo.html", row) %>
+            <% } }) %>
+          </div>
+        </div>
+
+
+          <hr>
+          <br>
+
+        <!-- <div class="story"> -->
+          <div class="credits">
+            <div>Development by <strong>Lauren Flannery</strong></div>
+          </div>
+
+
+          <div class="ad">
+            <zeus-ad id='zeus_bottom' width="100%;"></zeus-ad>
+          </div>
+          <div class="copyright">
+            Copyright © 2021 The Seattle Times
+          </div>
+        <!-- </div> -->
+      </div>
+      <%= t.include("partials/_navBottom.html") %>
+    </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

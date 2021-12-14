@@ -1,0 +1,22 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "benign-sensationalism"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "author": "",
+  "url": "",
+  "post_id": 0,
+  "image": "assets/social.jpg",
+  "sheets": ["1RvQiCGfhBafUljiDcuHbcvAHi3pVAk6CN7R-WxXHtkU"],
+  "docs": [],
+  "embedded": false,
+  "production": false
+}

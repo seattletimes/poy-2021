@@ -1,0 +1,8 @@
+node_modules
+build
+temp
+src/assets/POY2021
+auth.json
+.DS_Store
+npm-debug.log
+src/js/lib/*/**

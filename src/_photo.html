@@ -1,0 +1,29 @@
+<div class="container">
+  <% if ( !wide ) { %>
+  <div class="img-box <%=aspect%>">
+     <!-- <img class="lazy"  data-src="pic<%=id%>.jpg" alt="<%=caption%>"> -->
+     <img class="lazy" loading=lazy srcset="./assets/POY2021/small/pic<%=id%>.jpg 500w,
+             ./assets/POY2021/medium/pic<%=id%>.jpg 900w"
+     sizes="(max-width: 600px) 500px, 900px"
+     src="./assets/POY2021/small/pic<%=id%>.jpg" alt="<%=caption%>">
+  </div>
+  <div class="caption">
+    <h2><%=label%> <div class="date"><%=date%></div></h2>
+    <p><%=caption%></p>
+    <p><span class="portfolio-link"><a href="<%=portfolio%>" target="_blank" rel="nofollow noreferrer noopener"><i class="fa fa-camera" aria-hidden="true"></i></a></span> <%=credit%> / The Seattle Times</p>
+  </div>
+  <% } else { %>
+    <div class="<%=wide%>">
+      <img loading=lazy srcset="./assets/POY2021/small/pic<%=id%>.jpg 500w,
+              ./assets/POY2021/medium/pic<%=id%>.jpg 900w,
+              ./assets/POY2021/large/pic<%=id%>.jpg 1200w"
+              sizes="(min-width: 1000px) 1200px,
+                     (max-width: 500px) 500px, 900px"
+
+       src="./assets/POY2021/small/pic<%=id%>.jpg" alt="<%=caption%>">
+
+      <div class="caption inline"><%=date%> |  <%=caption%> <a href="<%=portfolio%>" target="_blank" rel="nofollow noreferrer noopener">(<%=credit%> / The Seattle Times)</a></div>
+    </div>
+  <% } %>
+
+</div>

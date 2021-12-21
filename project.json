@@ -6,17 +6,17 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2021/local/photos-of-the-year-2021"
     }
   },
-  "title": "",
-  "description": "",
-  "author": "",
-  "url": "",
-  "post_id": 0,
+  "title": "Pictures of the Year 2021",
+  "description": "Historic challenges, much-needed hope — and more than one notable needle.",
+  "author": "Fred Nelson, Seattle Times photo editor",
+  "url": "https://projects.seattletimes.com/2021/local/photos-of-the-year-2021/",
+  "post_id": 14455051,
   "image": "assets/social.jpg",
   "sheets": ["1RvQiCGfhBafUljiDcuHbcvAHi3pVAk6CN7R-WxXHtkU"],
   "docs": [],
   "embedded": false,
-  "production": false
+  "production": true
 }

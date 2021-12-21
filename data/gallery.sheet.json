@@ -61,7 +61,7 @@
     "caption": "Volunteers at vaccination stations raise their numbers to show they are available for the next person in line at the Community Vaccination Site at Lumen Field Event Center in Seattle. The early days of the coronavirus vaccine rollout to the general public seemed so exciting and urgent compared to where we are at the end of 2021 — when controversy, misinformation and variants have formed a toxic stew that perpetuates the crisis, seeming now to drag on with no foreseeable end. The opening of Seattle’s mass vaccination site next to Lumen Field felt electric as city leaders and members of the media gathered to document the transformation of the site from sports and entertainment to public health.",
     "credit": "Bettina Hansen",
     "aspect": "horizontal",
-    "wide": "",
+    "wide": "large",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-bettina-hansen/"
   },
@@ -72,7 +72,7 @@
     "caption": "Pastor Hector Garcia points to the sky after being discharged from the Everett Center, a rehabilitation facility. After Garcia battled for his life with COVID-19, I could tell that he was so thankful to God and the staff. Because he is a man of faith and had such a harrowing journey with the virus, this moment portrayed the relief and gratitude he must have felt as he was discharged.",
     "credit": "Daniel Kim",
     "aspect": "horizontal",
-    "wide": "large",
+    "wide": "",
     "link": "",
     "portfolio": "https://www.seattletimes.com/author/daniel-kim/"
   },
@@ -83,7 +83,7 @@
     "caption": "Two bear clubs, a brother and sister, were only 2 weeks old when a forest worker inadvertently disturbed their den, scaring away their mother. The PAWS Wildlife Center in Lynnwood rehabilitated the abandoned cubs for 15 months and let me capture their release back into the wild. For safety purposes, we had to stay behind the culvert trap and the forest workers. (You can see me on the truck bed on the left.) The barking dogs and flash bangs were there to scare the bears away from people and quickly into the forest. With advice from the PAWS Wildlife Center photographer, I set up two GoPros on short tripods in front of the culvert trap to best capture some of the possible directions the bears would run. The GoPros were programmed to take a photo every .5 seconds — any slower, and I would miss a movement. As the second bear exited, he was confused and scared, and he ran around both sides of the culvert trap toward the truck. The dogs and loud noises scared him right into the frame of my GoPro. With a lot of luck on the timing, and a little bit of preparation, the photo turned out the way I hoped it would.",
     "credit": "Amanda Snyder",
     "aspect": "horizontal",
-    "wide": "",
+    "wide": "large",
     "link": "",
     "portfolio": "https://www.seattletimes.com/author/amanda-snyder/"
   },
@@ -116,7 +116,7 @@
     "caption": "Chaos ensues when Boy Scouts rush to pick up ceremonial flags at the 95th Memorial Day ceremony at Washelli Memorial Cemetery, and Jared Petras, 10, is in the center of the scrum. Knowing I’d be run over by the Scouts, I positioned myself on the other side of the table as the rush began. Each of the cemetery’s 5,000 white, upright marble markers received a flag placed by Scouts, community members and veterans.",
     "credit": "Steve Ringman",
     "aspect": "horizontal",
-    "wide": "large",
+    "wide": "",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-steve-ringman/"
   },
@@ -127,7 +127,7 @@
     "caption": "“It was tough to leave them.” That’s what Jordan Baumgardner, left, said of having to abandon his rescue of the family’s dairy cows in the middle of the night as floodwaters became too high and too swift. The animals had been secured on a protected piece of high ground, but when an electric fence shorted out from rising waters, the creatures of habit started returning to their barn for milking. Forty-four perished. Still reeling days later, Baumgardner is consoled by his wife, Jamie, who holds their daughter, Grace, as he recounts venturing into the water that submerged his family’s Mount Vernon dairy farm. I can’t remember another photograph of mine triggering such a significant emotional response from readers, as well as journalists in my own newsroom. I read the emails and online comments with a renewed appreciation of how good photojournalism can spur empathy.",
     "credit": "Ken Lambert",
     "aspect": "horizontal",
-    "wide": "",
+    "wide": "large",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-ken-lambert/"
   },
@@ -193,7 +193,7 @@
     "caption": "Folks looking for respite from high temperatures get showered with water at Angle Lake in SeaTac on the third day of a heat wave in the Pacific Northwest. The temperature hit 108 degrees, Seattle’s highest temperature since detailed record-keeping began in 1870. The spray park was closed in summer 2020, but this summer it was open. Masks weren't required — and after more than a year of mask mandates, few people wore them.",
     "credit": "Ellen M. Banner",
     "aspect": "horizontal",
-    "wide": "large",
+    "wide": "medium",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-ellen-m-banner/"
   },
@@ -226,7 +226,7 @@
     "caption": "As photographers, we often see the unusual and unexpected. But how often do you see something you’ve never seen before? I wanted to cover the reopening of Colman Pool in West Seattle. It’s the city’s only open-air, saltwater pool on the Sound. Kate Dorman was juggling while swimming laps. It’s called swuggling, and it is a rigorous workout.",
     "credit": "Alan Berner",
     "aspect": "horizontal",
-    "wide": "",
+    "wide": "large",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-alan-berner-2/"
   },
@@ -243,17 +243,6 @@
   },
   {
     "id": 23,
-    "label": "The end of an era",
-    "date": "Oct. 3",
-    "caption": "With tears in his eyes, Mariners third baseman Kyle Seager holds up the bag he was given from the hot corner he defended during a decade in Seattle. I had expected everything to stop in the ninth inning of the season’s last game against the Angels to celebrate Seager. I didn’t expect head groundskeeper Tim Wilson to give Seager third base. Shortly before the gifting, while photographers rushed toward the dugout to cover Seager hugging teammates, I stayed put in the photo well, standing on a chair, unsure what was happening, and I monitored Seager’s unscripted movements from on high. When Seager suddenly darted back onto the field to receive the base, I was in pretty good position to get a clear view of a moment that lasted only seconds.",
-    "credit": "Ken Lambert",
-    "aspect": "baseball",
-    "wide": "",
-    "link": "",
-    "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-ken-lambert/"
-  },
-  {
-    "id": 24,
     "label": "Down and out (for a while)",
     "date": "Oct. 7",
     "caption": "It’s often said that the closer you get to something, the more blind you become, and that is often true in sports photography. When Russell Wilson broke the middle finger on his throwing hand in a game against the Los Angeles Rams, I was completely unaware of what had happened for the better part of 10 minutes. I had shot the sequence, and Wilson came out of the game on fourth down, and I thought nothing of it. I already had moved on to the change of possession. It wasn’t until I saw Wilson on the sideline with the team doctor that I realized something significant had happened. Even so, it wasn’t until my nephew texted me, while he watched the game on TV, that I found out about the seriousness of the injury. That had me diving back into my camera to look at the sequence wondering, “What the heck? Did I get that?” And then you come across that sequence, and say to yourself, “Oh, that’s what happened. Son of a gun.”",
@@ -262,6 +251,17 @@
     "wide": "",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-dean-rutz/"
+  },
+  {
+    "id": 24,
+    "label": "The end of an era",
+    "date": "Oct. 3",
+    "caption": "With tears in his eyes, Mariners third baseman Kyle Seager holds up the bag he was given from the hot corner he defended during a decade in Seattle. I had expected everything to stop in the ninth inning of the season’s last game against the Angels to celebrate Seager. I didn’t expect head groundskeeper Tim Wilson to give Seager third base. Shortly before the gifting, while photographers rushed toward the dugout to cover Seager hugging teammates, I stayed put in the photo well, standing on a chair, unsure what was happening, and I monitored Seager’s unscripted movements from on high. When Seager suddenly darted back onto the field to receive the base, I was in pretty good position to get a clear view of a moment that lasted only seconds.",
+    "credit": "Ken Lambert",
+    "aspect": "baseball",
+    "wide": "",
+    "link": "",
+    "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-ken-lambert/"
   },
   {
     "id": 25,
@@ -309,14 +309,14 @@
   },
   {
     "id": 29,
-    "label": "O (as in Oxygen) Henry",
-    "date": "Oct. 18",
-    "caption": "Henry the cat sits in a ventilated box inside a hyperbaric oxygen chamber in the emergency room at the Animal Medical Center of Seattle in Shoreline, where he was being treated for irritable bowel syndrome. I was initially drawn to photograph Henry because I’ve never seen a cat with so much attitude: In hindsight, the photo encapsulated the feeling of what I think many are experiencing in the pandemic.",
-    "credit": "Daniel Kim",
+    "label": "Champions of tradition",
+    "date": "Aug. 29",
+    "caption": "With Mount Rainier in the background, team Escaramuza Erandi warms up for Washington’s first state escaramuza championship in Enumclaw. Escaramuza — a synchronized team equestrian competition choreographed to music — is the only women's event in charrería, Mexico’s national sport. After months of practice, Jessica Paola Pimienta, of Snohomish, and her team, Escaramuza Erandi, earned top honors. The team advanced to Federación Mexicana de Charrería’s national competition in Aguascalientes, Mexico. “Keeping our cultural traditions alive, here, is creating an environment that feels like home,” Pimienta says. “I hope that in the next four years we’re able to raise our voices as women in the sport.\"",
+    "credit": "Erika Schultz",
     "aspect": "horizontal",
     "wide": "",
     "link": "",
-    "portfolio": "https://www.seattletimes.com/author/daniel-kim/"
+    "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-erika-schultz/"
   },
   {
     "id": 30,
@@ -325,7 +325,7 @@
     "caption": "I got a call from Seattle Times photo editor Fred Nelson, assigning me to find a homeless scene for the next day’s paper. Parking downtown, I spotted this person sleeping in an alcove near Westlake Park. The person’s face was covered, and the blanket was bright yellow, which separated it from the background. I waited for pedestrians walking by, seemingly not noticing the sleeping person. I used a Canon 70-200 mm lens, standing across the street.",
     "credit": "Greg Gilbert",
     "aspect": "horizontal",
-    "wide": "medium",
+    "wide": "",
     "link": "",
     "portfolio": "https://www.seattletimes.com/author/greg-gilbert/"
   },
@@ -336,7 +336,7 @@
     "caption": "Mark Seklemian walks with his wire fox terrier, Bandit, in West Seattle during a rainstorm. \"He doesn't seem to mind the weather,\" says Seklemian. \"He'll never turn down going on a walk.\" On this rainy day last spring, I remember driving around Seattle for hours trying to find a feature photo. It wasn’t until the very end of the day that I saw Seklemian and Bandit in their wonderful, bright rain gear. Lucky for me, they didn’t mind if I walked with them for a few blocks during their outing.",
     "credit": "Erika Schultz",
     "aspect": "horizontal",
-    "wide": "",
+    "wide": "medium",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-erika-schultz/"
   },
@@ -346,7 +346,7 @@
     "date": "Jan. 23",
     "caption": "Washington middle blocker Marin Grote gets a kill in the third set as the Huskies defeat Arizona State in four sets. The UW volleyball team played a thrilling season in 2021 to a mostly empty Alaska Airlines Arena. I felt lucky to be one of the only people with a seat to the live action. For many of these games, I roamed the upper tiers of the arena, with the whole place mostly to myself, able to line up shots from wherever the angles looked best. I used a 400 mm prime lens to get a really good, sharp depth-of-field contrast.",
     "credit": "Bettina Hansen",
-    "aspect": "vertical",
+    "aspect": "basketball",
     "wide": "",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-bettina-hansen/"
@@ -358,7 +358,7 @@
     "caption": "The return to live music for quite a few folks coincided with the opening of the new Climate Pledge Arena. I was assigned to shoot the very first event at the $1.2 billion structure, where Foo Fighters swung their hair back and forth to the delight of the packed house. At concerts, photographers are normally allowed to shoot from only one of two places: in the pit between the stage and general admission, or back near the soundboard. This concert was the latter, with photographers standing on ladders near the back of the house in order to have a view of the stage over a sea of standing people. That gave me the vantage point to take this photo showing part of the new arena, Dave Grohl’s lovely locks and his thousands of backlit admirers.",
     "credit": "Jennifer Buchanan",
     "aspect": "horizontal",
-    "wide": "",
+    "wide": "large",
     "link": "",
     "portfolio": "https://www.seattletimes.com/author/jbuchanan/"
   },
@@ -369,7 +369,7 @@
     "caption": "What a great moment at the Washington state Capitol, to see and photograph newly elected state Rep. Jesse Johnson from District 30 at the beginning of the 2021 session. Legislators had to spread out and socially distance, some of them in the galleries above, as the session opened.",
     "credit": "Steve Ringman",
     "aspect": "horizontal",
-    "wide": "large",
+    "wide": "",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-steve-ringman/"
   },
@@ -380,7 +380,7 @@
     "caption": "The Northgate light rail station is seen from a drone at sundown, a short while before it would open in October. Seattle Times photographer Ellen M. Banner deserves a lot of credit for this image. We recently had caught up by phone and discussed her latest project: the light rail expansion to Northgate. Ellen felt the photo had to be at sunset, and got a great shot from a difficult vantage point. But I wasn’t completely surprised when I was given a last-minute assignment to take a crack at covering Northgate by air. It was the only way to get a view of the station with the city in the background, which was a big part of the story. In keeping with Ellen’s original vision for a station shot, I purposely decided to fly at sunset. I was so happy when my longtime friend liked the aerial view, which turned out so well because of her original idea.",
     "credit": "Ken Lambert",
     "aspect": "horizontal",
-    "wide": "",
+    "wide": "medium",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-ken-lambert/"
   },
@@ -413,19 +413,19 @@
     "caption": "From left, Mitch Haniger gives Dylan Moore of the Mariners the first of three liquid baths, as Root Sports interviewer Jen Mueller tries to stay dry, after Seattle beat Houston on Moore’s grand slam. Seattle was down 8-7 with the bases loaded in the eighth when Moore, facing Brooks Raley, unleashed a rocket 395 feet to left field. I would categorize these somewhat-clichéd postgame splash celebrations as the \"snowflakes\" of baseball. Visually, no two ever look identical. And, like a snowfall, a Mariners come-from-behind victory is always seen as a thing of beauty in Seattle.",
     "credit": "Ken Lambert",
     "aspect": "horizontal",
-    "wide": "large",
+    "wide": "",
     "link": "",
     "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-ken-lambert/"
   },
   {
     "id": 39,
-    "label": "Champions of tradition",
-    "date": "Aug. 29",
-    "caption": "With Mount Rainier in the background, team Escaramuza Erandi warms up for Washington’s first state escaramuza championship in Enumclaw. Escaramuza — a synchronized team equestrian competition choreographed to music — is the only women's event in charrería, Mexico’s national sport. After months of practice, Jessica Paola Pimienta, of Snohomish, and her team, Escaramuza Erandi, earned top honors. The team advanced to Federación Mexicana de Charrería’s national competition in Aguascalientes, Mexico. “Keeping our cultural traditions alive, here, is creating an environment that feels like home,” Pimienta says. “I hope that in the next four years we’re able to raise our voices as women in the sport.\"",
-    "credit": "Erika Schultz",
+    "label": "O (as in Oxygen) Henry",
+    "date": "Oct. 18",
+    "caption": "Henry the cat sits in a ventilated box inside a hyperbaric oxygen chamber in the emergency room at the Animal Medical Center of Seattle in Shoreline, where he was being treated for irritable bowel syndrome. I was initially drawn to photograph Henry because I’ve never seen a cat with so much attitude: In hindsight, the photo encapsulated the feeling of what I think many are experiencing in the pandemic.",
+    "credit": "Daniel Kim",
     "aspect": "horizontal",
-    "wide": "",
+    "wide": "large",
     "link": "",
-    "portfolio": "https://www.seattletimes.com/photo-video/photography/photographer-portfolio-erika-schultz/"
+    "portfolio": "https://www.seattletimes.com/author/daniel-kim/"
   }
 ]

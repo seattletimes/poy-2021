@@ -7,6 +7,76 @@
   }
 }
 
+.poyEvent {
+  color: @df-border-gray;
+  font-family: @df-sans;
+  // margin-left: 50px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 15px 0px;
+  margin-bottom: 15px;
+
+
+
+  // max-width: 700px;
+  // margin: auto;
+  @media @tablet {
+    border-bottom: 2px solid gray;
+    padding-bottom: 15px;
+  }
+
+  .join {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  .logo {
+    // max-width: 120px;
+    // margin: auto;
+      max-width: none;
+      width: 150px;
+      display: inline-block;
+      vertical-align: middle;
+  }
+
+  .center {
+    // clear: both;
+    max-width: 600px;
+    margin: auto;
+    padding: 5px;
+    font-size: 0px;
+      background-color: #3e3e3e;
+    .text {
+      font-size: 20px;
+        vertical-align: middle;
+        display: inline-block;
+        width: ~"calc(100% - 150px)";
+
+    }
+  }
+
+}
+
+// .navBar {
+//   position: fixed;
+//   top: 0px;
+//   z-index: 10;
+//   width: 100%;
+//   text-align: center;
+//   background-color: rgba(255,255,255,0.2);
+//
+//   #navScroll {
+//     height: 10px;
+//     background-color: #0777b3;
+//   }
+//
+// }
 
 
 body {
@@ -182,6 +252,7 @@ p {
     }
 
     &.fred {
+      border-top: none;
       .small {
         @media @tablet {
           max-width: none;
@@ -299,6 +370,9 @@ p {
     }
     &.baseball {
       max-width: 500px;
+    }
+    &.basketball {
+      max-width: 600px;
     }
   }
 

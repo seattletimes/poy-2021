@@ -10,7 +10,7 @@
   <div class="caption">
     <h2><%=label%> <div class="date"><%=date%></div></h2>
     <p><%=caption%></p>
-    <p><span class="portfolio-link"><a href="<%=portfolio%>" target="_blank" rel="nofollow noreferrer noopener"><i class="fa fa-camera" aria-hidden="true"></i></a></span> <%=credit%> / The Seattle Times</p>
+    <p><span class="portfolio-link"><a href="<%=portfolio%>" target="_blank" rel="nofollow noreferrer noopener"><i class="fa fa-camera" aria-hidden="true"></i></a></span> <%=credit%> / The Seattle Times <br><i><b><%=id - 1 %>/38</b></i></p>
   </div>
   <% } else { %>
     <div class="<%=wide%>">
@@ -22,7 +22,7 @@
 
        src="./assets/POY2021/small/pic<%=id%>.jpg" alt="<%=caption%>">
 
-      <div class="caption inline"><%=date%> |  <%=caption%> <a href="<%=portfolio%>" target="_blank" rel="nofollow noreferrer noopener">(<%=credit%> / The Seattle Times)</a></div>
+      <div class="caption inline"><h2><%=label%> <div class="date"><%=date%></div></h2><%=caption%> <a href="<%=portfolio%>" target="_blank" rel="nofollow noreferrer noopener">(<%=credit%> / The Seattle Times)</a> <i><b><%=id - 1 %>/38</b></i></div>
     </div>
   <% } %>
 

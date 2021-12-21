@@ -12,19 +12,43 @@ document.body.clientWidth;
 const height = window.innerHeight|| document.documentElement.clientHeight||
 document.body.clientHeight;
 
+
+
+var full_height = Math.max( document.body.scrollHeight, document.body.offsetHeight,
+                       document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );
+
+console.log(full_height + " " + document.documentElement.scrollHeight);
+
 var size = "small";
 
 if (width > 500){
   size = "medium";
 } else {};
 
+// function updateScrollBar() {
+//   console.log(window.pageYOffset);
+//   const docHeight = (full_height - height);
+//   let position = window.pageYOffset;
+//   var percentage = ((position / docHeight) * 100);
+//   document.querySelector('#navScroll').style.width = `${percentage}%`;
+// }
+//
+// updateScrollBar();
+//
+// document.addEventListener("scroll", updateScrollBar);
+
+var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+               navigator.userAgent &&
+               navigator.userAgent.indexOf('CriOS') == -1 &&
+               navigator.userAgent.indexOf('FxiOS') == -1;
 
 const config = {
   rootMargin: `${height}px 0px ${height}px 0px`
 };
 
 //turn me back on if you need it
-
+// if(isSafari){
+//
 // if ("IntersectionObserver" in window) {
 //   let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
 //     // console.log(observer);
@@ -82,7 +106,8 @@ const config = {
 // 	  window.addEventListener("orientationchange", lazyLoad);
 // 	// });
 // }
-
+//
+// }
 //turn me back on if you need it
 
 
